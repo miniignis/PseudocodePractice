@@ -43,7 +43,7 @@ while running
     print "Invalid input. Please try again: "
     continue = user_input
 
-  if continue == "n" then
+  if continue is "n" then
       running = false
 
 print "Output: "
@@ -70,7 +70,7 @@ while running
     print "Invalid input. Please try again: "
     continue = user_input
 
-  if continue == "n" then
+  if continue is "n" then
       running = false
 
 -- pseudocode #5 --
