@@ -48,3 +48,28 @@ while running
 
 print "Output: "
 print total
+
+-- pseudocode #4 --
+
+running = true
+
+while running
+  print "Max Number: "
+  random_max = user_input
+
+  while (random_max is not a number)
+    print "Invalid input. Please try again: "
+    random_max = user_input
+
+  print "Output: "
+  print floor(random(random_max))
+
+  print "New Number? (y/n)"
+  continue = user_input
+
+  while (continue is not "y" or "n")
+    print "Invalid input. Please try again: "
+    continue = user_input
+
+  if continue == "n" then
+      running = false
