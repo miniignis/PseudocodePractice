@@ -21,3 +21,30 @@ total = a + b
 
 print "Output: "
 print total
+
+-- pseudocode #3 --
+running = false
+total = 0
+
+while running
+  print "Number: "
+  num = user_input
+
+  while (num is not a number)
+    print "Invalid input. Please try again: "
+    num = user_input
+  total += num
+
+  print "Another number? (y/n): "
+  continue = user_input
+  continue = continue.toLower()
+
+  while (continue is not "y" or "n")
+    print "Invalid input. Please try again: "
+    continue = user_input
+
+  if continue == "n" then
+      running = false
+
+print "Output: "
+print total
