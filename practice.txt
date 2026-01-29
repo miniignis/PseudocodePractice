@@ -1,0 +1,23 @@
+-- pseudocode #1 --
+input = user_input
+print input.toUpper()
+
+-- pseudocode #2 --
+print "Please input a number: "
+a = user_input
+
+while (a is not a number)
+  print "Invalid input. Please try again: "
+  a = user_input
+
+print "Please input a second number: "
+b = user_input
+
+while (b is not a number)
+  print "Invalid input. Please try again: "
+  b = user_input
+
+total = a + b
+
+print "Output: "
+print total
